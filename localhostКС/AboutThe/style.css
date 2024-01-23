@@ -1,0 +1,38 @@
+body{
+	background: linear-gradient(to right, black, rgb(182, 20, 20));
+	color: #fff;
+}
+
+.content{
+	margin: 0 auto;
+	max-width: 1305px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.top > h1{
+	display: flex;
+	justify-content: center;
+	color: #FC0;
+	text-decoration: underline;
+}
+
+.center > h1{
+	color: #FC0;
+}
+
+.buttom > h1{
+	color: #FC0;
+	display: flex;
+	justify-content: center;
+}
+
+.signature{
+	display: flex;
+	justify-content: right;
+	color: #FC0;
+	font-style: italic;
+}

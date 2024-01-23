@@ -1,0 +1,39 @@
+body{
+	background: black;
+	color:#fff;
+}
+
+.content{
+	margin: 0 auto;
+    max-width: 1305px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.top, .cent, .butt{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width: 500px;
+	height: 50px;
+	font-size: 30px;
+}
+textarea{
+	width: 1305px;
+	height: 500px;
+	font-size: 30px;
+}
+
+.back{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	background-color: cornsilk;
+	color:black;
+	padding: 5px 10px;
+	font-size: 30px;
+}

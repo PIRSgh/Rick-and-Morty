@@ -1,0 +1,94 @@
+body{
+	background: #000000;
+	color: #fff;
+	padding: 0%;
+	margin: 0px;
+}
+
+.top{
+	display: flex;
+	justify-content:  space-between;
+	align-items: center;
+}
+
+.top > h1{
+	margin: 0px 0px 0px 0px;
+	text-shadow: #FC0 0px 0 10px;
+}
+
+.top > img{
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#Entrance{
+	margin-right: 20px;
+}
+
+#menu{
+	border: 1px solid red;
+	position: fixed;
+	padding: 10px 20px;
+	left: -250px;
+	transition: 0.3s all;
+	border-radius: 10px;
+	background-color: black;
+}
+
+#menu > h3 > a:hover{
+	color: #FC0;
+}
+
+.content{
+	margin: 0 auto;
+    max-width: 1305px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.center > img{
+	width: 101%;
+	border-radius: 10px;
+}
+
+.center > h1{
+	text-shadow: #FC0 0px 0 10px;
+}
+
+.psy{
+	margin: -700px 0px 0px 0px;
+	font-size: 220px;
+}
+
+.cho{
+	margin: -250px 0px 0px 700px;
+	font-size: 220px;
+}
+
+.Fan{
+	margin-top: 410px;
+	text-align: center;
+}
+
+.button{
+	margin-top: 10px;
+	gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#cards{
+	border: 2px solid rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+	padding: 3px;
+	transition:0.2s all;
+	margin-top: 10px;
+	border: 1px solid red;
+	box-shadow: 0 0 10px red;
+	cursor: pointer;
+	font-size: 30px;
+}
